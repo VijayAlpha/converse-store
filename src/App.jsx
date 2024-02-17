@@ -1,5 +1,4 @@
 import {
-  CustomerReviews,
   Footer,
   Hero,
   PopularProducts,
@@ -18,10 +17,10 @@ const App = () => (
       <Hero />
     </section>
     <section className="padding">
-      <PopularProducts />
+      <SuperQuality />
     </section>
     <section className="padding">
-      <SuperQuality />
+      <PopularProducts />
     </section>
     <section className="padding-x py-10">
       <Services />
@@ -29,9 +28,9 @@ const App = () => (
     <section className="padding">
       <SpecialOffer />
     </section>
-    <section className="bg-pale-blue padding">
+    {/* <section className="bg-pale-blue padding">
       <CustomerReviews />
-    </section>
+    </section> */}
     <section className="padding-x sm:py-32 py-16 w-full">
       <Subscribe />
     </section>

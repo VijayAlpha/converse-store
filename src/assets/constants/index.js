@@ -7,9 +7,9 @@ import {
   twitter,
 } from "../icons";
 import {
-  bigShoe1,
-  bigShoe2,
-  bigShoe3,
+  artWork5,
+  artWork2,
+  artWork3,
   customer1,
   customer2,
   shoe4,
@@ -23,23 +23,23 @@ import {
 
 export const navLinks = [
   { href: "#home", label: "Home" },
-  { href: "#about-us", label: "About Us" },
-  { href: "#products", label: "Products" },
-  { href: "#contact-us", label: "Contact Us" },
+  { href: "#about-us", label: "Story" },
+  { href: "#products", label: "Collection" },
+  { href: "#contact-us", label: "Join Us" },
 ];
 
-export const shoes = [
+export const artworks = [
   {
-    thumbnail: thumbnailShoe1,
-    bigShoe: bigShoe1,
+    thumbnail: artWork5,
+    bigShoe: artWork5,
   },
   {
-    thumbnail: thumbnailShoe2,
-    bigShoe: bigShoe2,
+    thumbnail: artWork2,
+    bigShoe: artWork2,
   },
   {
-    thumbnail: thumbnailShoe3,
-    bigShoe: bigShoe3,
+    thumbnail: artWork3,
+    bigShoe: artWork3,
   },
 ];
 
