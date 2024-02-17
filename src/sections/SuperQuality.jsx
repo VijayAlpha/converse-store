@@ -1,4 +1,4 @@
-import { shoe8 } from "../assets/images";
+import { artWork8 } from "../assets/images";
 import Button from "../components/Button";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
@@ -11,22 +11,22 @@ const SuperQuality = () => {
       <div className="flex flex-1 flex-col">
         <h2 className="font-palanquin text-4xl capitalize font-bold lg:max-w-lg">
           <span className="xl:bg-white xl:whitespace-nowrap relative z-10 pr-3">
-            We provide you
+            the Story of
           </span>
-          <span className="text-primary">Super </span>
-          <span className="text-primary">Quality</span> Shoes
+          <span className="text-primary">Future Of Dawn</span>
         </h2>
         <p className="mt-4 lg:max-w-lg info-text">
-          Ensuring premium comfort and style, our meticulously crafted footwear
-          is designed to elevate your experience, providing you with unmatched
-          quality, innovation, and a touch of elegance.
+          Band of rebels emerged, their bodies enhanced with advanced cybernetic
+          implants and accompanied by cyberpunk animals warriors from different
+          clans for battles and legion of cybernetic soldiers upon the world,
+          aiming for absolute control.
         </p>
         <p className="mt-6 lg:max-w-lg info-text">
-          Our dedication to detail and excellence ensures your satisfaction
+          This is a collection of 1111 Free NFTs for our whitelisted people.
         </p>
         <div className="mt-11">
           {" "}
-          <Button label="View details" />
+          <Button label="Join Whitelist" />
         </div>
       </div>
       <TrackVisibility partialVisibility once>
@@ -38,7 +38,7 @@ const SuperQuality = () => {
                 : ""
             }`}>
             <img
-              src={shoe8}
+              src={artWork8}
               alt="shoe8"
               width={650}
               height={600}
