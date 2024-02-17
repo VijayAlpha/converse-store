@@ -7,8 +7,7 @@ import TrackVisibility from "react-on-screen";
 const SpecialOffer = () => {
   return (
     <section
-      className={`flex flex-wrap items-center max-xl:flex-col-reverse gap-10 max-container `}
-    >
+      className={`flex flex-wrap items-center max-xl:flex-col-reverse gap-10 max-container `}>
       <TrackVisibility partialVisibility once>
         {({ isVisible }) => (
           <div
@@ -16,15 +15,14 @@ const SpecialOffer = () => {
               isVisible
                 ? "animate__animated animate__fadeIn animate__slower"
                 : ""
-            }`}
-          >
+            }`}>
             <img src={offer} className="w-full rounded-lg" />
           </div>
         )}
       </TrackVisibility>
       <div className="flex flex-1 flex-col">
         <h2 className="font-palanquin text-4xl capitalize font-bold lg:max-w-lg">
-          <span className="text-purple-900">Special </span>
+          <span className="text-primary">Special </span>
           Offer
         </h2>
         <p className="mt-4 info-text">

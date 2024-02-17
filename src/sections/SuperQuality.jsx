@@ -7,15 +7,14 @@ const SuperQuality = () => {
   return (
     <section
       id="about-us"
-      className="flex justify-between items-center max-lg:flex-col gap-10 w-full max-container"
-    >
+      className="flex justify-between items-center max-lg:flex-col gap-10 w-full max-container">
       <div className="flex flex-1 flex-col">
         <h2 className="font-palanquin text-4xl capitalize font-bold lg:max-w-lg">
           <span className="xl:bg-white xl:whitespace-nowrap relative z-10 pr-3">
             We provide you
           </span>
-          <span className="text-purple-900">Super </span>
-          <span className="text-purple-900">Quality</span> Shoes
+          <span className="text-primary">Super </span>
+          <span className="text-primary">Quality</span> Shoes
         </h2>
         <p className="mt-4 lg:max-w-lg info-text">
           Ensuring premium comfort and style, our meticulously crafted footwear
@@ -37,8 +36,7 @@ const SuperQuality = () => {
               isVisible
                 ? "animate__animated animate__fadeIn animate__slower"
                 : ""
-            }`}
-          >
+            }`}>
             <img
               src={shoe8}
               alt="shoe8"

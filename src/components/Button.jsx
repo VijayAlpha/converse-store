@@ -12,9 +12,8 @@ const Button = ({
     ${
       backgroundColor
         ? `${backgroundColor} ${textColor} ${borderColor}`
-        : "bg-purple-900 text-white border-purple-900"
-    } rounded-full ${fullWidth && "w-full"}`}
-    >
+        : "bg-[#0EAD98] text-white border-[#0EAD98]"
+    } rounded-full ${fullWidth && "w-full"}`}>
       {label}
       {iconURL && (
         <img
