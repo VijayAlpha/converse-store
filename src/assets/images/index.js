@@ -1,6 +1,12 @@
-import bigShoe1 from "./big-shoe1.png";
-import bigShoe2 from "./big-shoe2.png";
-import bigShoe3 from "./big-shoe3.png";
+import artWork1 from "./artwork-1.jpg";
+import artWork2 from "./artwork-2.jpg";
+import artWork3 from "./artwork-3.jpg";
+import artWork4 from "./artwork-4.jpg";
+import artWork5 from "./artwork-5.jpg";
+import artWork6 from "./artwork-6.jpg";
+import artWork7 from "./artwork-7.jpg";
+import artWork8 from "./artwork-8.jpg";
+
 
 import customer1 from "./customer1.jpeg";
 import customer2 from "./customer2.svg";
@@ -26,9 +32,14 @@ import thumbnailShoe2 from "./thumbnail-shoe2.svg";
 import thumbnailShoe3 from "./thumbnail-shoe3.svg";
 
 export {
-  bigShoe1,
-  bigShoe2,
-  bigShoe3,
+  artWork1,
+  artWork2,
+  artWork3,
+  artWork4,
+  artWork5,
+  artWork6,
+  artWork8,
+  artWork7,
   customer1,
   customer2,
   footerLogo,
