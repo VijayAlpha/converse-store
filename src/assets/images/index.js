@@ -6,7 +6,9 @@ import artWork5 from "./artwork-5.jpg";
 import artWork6 from "./artwork-6.jpg";
 import artWork7 from "./artwork-7.jpg";
 import artWork8 from "./artwork-8.jpg";
-
+import artWork9 from "./artwork-9.jpg";
+import artWork10 from "./artwork-10.jpg";
+import artWork11 from "./artwork-11.jpg";
 
 import customer1 from "./customer1.jpeg";
 import customer2 from "./customer2.svg";
@@ -40,6 +42,9 @@ export {
   artWork6,
   artWork8,
   artWork7,
+  artWork9,
+  artWork10,
+  artWork11,
   customer1,
   customer2,
   footerLogo,

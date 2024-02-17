@@ -46,7 +46,7 @@ const SpecialOffer = () => {
         </p>
         <div className="mt-11 flex flex-wrap gap-4">
           {" "}
-          <Button label="Join Waitlist" iconURL={arrowRight} />
+          <Button label="Follow CoinEx" iconURL={arrowRight} />
           <Button
             label="Follow us on Twitter"
             backgroundColor="bg-white"

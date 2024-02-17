@@ -3,22 +3,18 @@ import {
   instagram,
   shieldTick,
   support,
-  truckFast,
+  twitterLogo,
   twitter,
 } from "../icons";
 import {
   artWork5,
+  artWork6,
   artWork2,
   artWork3,
+  artWork11,
+  artWork9,
   customer1,
   customer2,
-  shoe4,
-  shoe5,
-  shoe6,
-  shoe7,
-  thumbnailShoe1,
-  thumbnailShoe2,
-  thumbnailShoe3,
 } from "../images";
 
 export const navLinks = [
@@ -51,43 +47,43 @@ export const statistics = [
 
 export const products = [
   {
-    imgURL: shoe4,
-    name: "Chuck Taylor All Star",
+    imgURL: artWork6,
+    name: "FOD: Baicam",
     price: "100.20 €",
   },
   {
-    imgURL: shoe5,
-    name: "Run Star Hike Sequins",
+    imgURL: artWork11,
+    name: "FOD: Rucho",
     price: "190.00 €",
   },
   {
-    imgURL: shoe6,
-    name: "Chuck Taylor All Star",
+    imgURL: artWork9,
+    name: "FOD: Babirus",
     price: "120.20 €",
   },
   {
-    imgURL: shoe7,
-    name: "Chuck 70 Y2K Heart",
+    imgURL: artWork2,
+    name: "L-O-P-E 1211",
     price: "130.00 €",
   },
 ];
 
 export const services = [
   {
-    imgURL: truckFast,
-    label: "Free shipping",
-    subtext: "Enjoy seamless shopping with our complimentary shipping service.",
+    imgURL: twitterLogo,
+    label: "Follow",
+    subtext: "Follow Future of Dawn and CoinEx on Twitter. ",
   },
   {
     imgURL: shieldTick,
-    label: "Secure Payment",
-    subtext:
-      "Experience worry-free transactions with our secure payment options.",
+    label: "Join WhiteList",
+    subtext: "Fill in the relevant information on the white list.",
   },
   {
     imgURL: support,
-    label: "Love to help you",
-    subtext: "Our dedicated team is here to assist you every step of the way.",
+    label: "Finally",
+    subtext:
+      "Wait for OneSwap audit notification on public display & sale of NFT.",
   },
 ];
 
@@ -140,7 +136,19 @@ export const footerLinks = [
 ];
 
 export const socialMedia = [
-  { src: facebook, alt: "facebook logo" },
-  { src: twitter, alt: "twitter logo" },
-  { src: instagram, alt: "instagram logo" },
+  {
+    src: facebook,
+    alt: "facebook logo",
+    link: "https://www.facebook.com/TheCoinEx",
+  },
+  {
+    src: twitter,
+    alt: "twitter logo",
+    link: "https://twitter.com/coinexcom",
+  },
+  {
+    src: instagram,
+    alt: "instagram logo",
+    link: "https://www.instagram.com/coinexcom/",
+  },
 ];

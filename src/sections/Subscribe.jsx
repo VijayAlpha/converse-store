@@ -12,18 +12,14 @@ const Subscribe = () => {
             isVisible ? "animate__animated animate__fadeIn animate__slow" : ""
           }`}>
           <h3 className="text-4xl leading-[68px] lg:max-w-md font-palanquin font-bold">
-            Sign Up for
-            <span className="text-primary"> Updates </span>& Newsletter
+            Follow Us For
+            <span className="text-primary"> Updates </span>& Whitelist
           </h3>
-          <div className="lg:max-w-[40%] w-full flex items-center max-sm:flex-col gap-5 p-2.5 sm:border sm:border-slate-gray rounded-full">
-            <input
-              type="text"
-              placeholder="subscribe@converse.com"
-              className="input"
-            />
-            <div className="flex max-sm:justify-end items-center max-sm:w-full">
-              <Button label="Sign Up" fullWidth />
-            </div>
+
+          <div className="flex max-sm:justify-end items-center gap-6 max-sm:w-full">
+            <Button label="Follow CoinEx" fullWidth />
+            <Button label="Future Of Dawn" fullWidth />
+            <Button label="Join Whitelist" fullWidth />
           </div>
         </section>
       )}

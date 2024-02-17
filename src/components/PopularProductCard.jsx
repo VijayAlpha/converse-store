@@ -1,9 +1,9 @@
 import { useState, useEffect } from "react";
 import { products } from "../assets/constants";
-import { shoe10, shoe11, shoe12, shoe7, shoe9 } from "../assets/images";
+import { artWork1, artWork2, artWork3, artWork4,artWork5 } from "../assets/images";
 
-const PopularProductCard = ({ imgURL, name, price, isLast }) => {
-  const carrousel = [shoe7, shoe9, shoe10, shoe11, shoe12];
+const PopularProductCard = ({ imgURL, name, isLast }) => {
+  const carrousel = [artWork1, artWork2, artWork3, artWork4, artWork5];
   const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {
@@ -22,7 +22,11 @@ const PopularProductCard = ({ imgURL, name, price, isLast }) => {
 
   return (
     <div className="flex flex-1 flex-col w-full max-sm:w-full">
-      <img src={displayedImage} alt={name} className="w-[280px] h-[280px]" />
+      <img
+        src={displayedImage}
+        alt={name}
+        className="w-[280px] h-[280px] rounded-xl"
+      />
       {/* <div className="mt-8 flex justify-start gap-2.5">
         <img src={star} alt="rating" width={24} height={24} />
         <p className="font-montserrat text-xl leading-normal text-slate-gray">

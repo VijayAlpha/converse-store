@@ -26,6 +26,10 @@ const App = () => (
       <PopularProducts />
     </section>
     <section className="padding-x py-10">
+      <h2 className="text-4xl font-palanquin font-bold text-center mb-10">
+        How to <span className="text-primary"> participate </span> in Whitelist
+        ?
+      </h2>
       <Services />
     </section>
 
