@@ -27,7 +27,7 @@ const Hero = () => {
           Future of dawn is a free NFT collection of 1111 NFTs On{" "}
           <span className="text-primary">CoinEx Smart Chain</span>
         </p>
-        <Button label="Mint Now" iconURL={arrowRight} />
+        <Button label="Join Whitelist" iconURL={arrowRight} />
       </div>
 
       <div className="relative flex-1 flex justify-center items-center xl:min-h-screen max-xl:py-40  bg-center">
