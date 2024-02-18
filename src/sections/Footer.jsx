@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="flex justify-between items-start gap-20 flex-wrap max-lg:flex-col">
         <div className="flex flex-col items-start">
           <a href="/">
-            <img src={headerLogo} width={150} height={46} />
+            <img src={headerLogo} className="-m-4 -mb-6" width={120} height={46} />
           </a>
           <p className="mt-6 text-base leading-7 font-montserrat text-white-400 sm:max-w-sm">
             Future of Dawn is a free NFT collection of 1111 NFTs On CoinEx Smart

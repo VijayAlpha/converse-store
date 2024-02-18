@@ -26,7 +26,7 @@ const SuperQuality = () => {
         </p>
         <div className="mt-11">
           {" "}
-          <Button label="Join Whitelist" />
+          <a  className="flex justify-center items-center gap-2 px-7 py-4 font-montserrat text-lg leading-none rounded-full bg-primary text-white w-52" href="#WhiteListLink" >Join WhiteList</a>
         </div>
       </div>
       <TrackVisibility partialVisibility once>
