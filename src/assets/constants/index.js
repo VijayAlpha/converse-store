@@ -139,16 +139,16 @@ export const socialMedia = [
   {
     src: facebook,
     alt: "facebook logo",
-    link: "https://www.facebook.com/TheCoinEx",
+    link: "https://t.me/coinexindiaofficial",
   },
   {
     src: twitter,
     alt: "twitter logo",
-    link: "https://twitter.com/coinexcom",
+    link: "https://twitter.com/coinexindia",
   },
   {
     src: instagram,
     alt: "instagram logo",
-    link: "https://www.instagram.com/coinexcom/",
+    link: "https://www.instagram.com/coinexindia",
   },
 ];

@@ -1,4 +1,3 @@
-import Button from "../components/Button";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
 
@@ -16,10 +15,28 @@ const Subscribe = () => {
             <span className="text-primary"> Updates </span>& Whitelist
           </h3>
 
-          <div className="flex max-sm:justify-end items-center gap-6 max-sm:w-full">
-            <Button label="Follow CoinEx" fullWidth />
-            <Button label="Future Of Dawn" fullWidth />
-            <Button label="Join Whitelist" fullWidth />
+          <div className="flex flex-col max-sm:justify-end items-center gap-6 max-sm:w-full">
+            <a
+              className="bg-primary py-3 px-12 rounded-full text-xl text-white cursor-pointer"
+              href="https://twitter.com/coinexindia"
+              target="_blank"
+              rel="noreferrer">
+              Follow CoinEx
+            </a>
+            <a
+              className="bg-primary py-3 px-12 rounded-full text-xl text-white cursor-pointer"
+              href="https://twitter.com/futureofdawns"
+              target="_blank"
+              rel="noreferrer">
+              Future Of Dawn
+            </a>
+            <a
+              className="bg-primary py-3 px-12 rounded-full text-xl text-white cursor-pointer"
+              href="https://denet.me/m/bYKLsb"
+              target="_blank"
+              rel="noreferrer">
+              Join Whitelist
+            </a>
           </div>
         </section>
       )}

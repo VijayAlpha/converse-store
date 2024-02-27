@@ -1,5 +1,4 @@
 import { artWork8 } from "../assets/images";
-import Button from "../components/Button";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
 
@@ -26,7 +25,11 @@ const SuperQuality = () => {
         </p>
         <div className="mt-11">
           {" "}
-          <a  className="flex justify-center items-center gap-2 px-7 py-4 font-montserrat text-lg leading-none rounded-full bg-primary text-white w-52" href="#WhiteListLink" >Join WhiteList</a>
+          <a
+            className="flex justify-center items-center gap-2 px-7 py-4 font-montserrat text-lg leading-none rounded-full bg-primary text-white w-52"
+            href="https://denet.me/m/bYKLsb">
+            Join WhiteList
+          </a>
         </div>
       </div>
       <TrackVisibility partialVisibility once>

@@ -1,6 +1,4 @@
-import { arrowRight } from "../assets/icons";
 import { artWork6 } from "../assets/images";
-import Button from "../components/Button";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
 
@@ -35,8 +33,8 @@ const SpecialOffer = () => {
 
         <p className="mt-6 info-text">
           Led by the enigmatic Captain Nova, they waged a guerrilla war against
-          Futuocorp's forces, striking from the shadows and inspiring hope in
-          the oppressed masses.
+          Futuocorp&apos;s forces, striking from the shadows and inspiring hope
+          in the oppressed masses.
         </p>
 
         <p className="mt-6 info-text">
@@ -46,13 +44,20 @@ const SpecialOffer = () => {
         </p>
         <div className="mt-11 flex flex-wrap gap-4">
           {" "}
-          <Button label="Follow CoinEx" iconURL={arrowRight} />
-          <Button
-            label="Follow us on Twitter"
-            backgroundColor="bg-white"
-            borderColor="border-slate-gray"
-            textColor="text-slate-gray"
-          />
+          <a
+            className="bg-primary py-3 px-12 rounded-full text-xl text-white cursor-pointer"
+            href="https://twitter.com/coinexindia"
+            target="_blank"
+            rel="noreferrer">
+            Follow CoinEx
+          </a>
+          <a
+            className="bg-white border-2 border-gray-900 py-3 px-12 rounded-full text-xl cursor-pointer"
+            href="https://twitter.com/futureofdawns"
+            target="_blank"
+            rel="noreferrer">
+            Follow us on Twitter
+          </a>
         </div>
       </div>
     </section>

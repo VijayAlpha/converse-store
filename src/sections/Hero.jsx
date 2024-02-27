@@ -1,7 +1,5 @@
 import { artworks } from "../assets/constants";
-import { arrowRight } from "../assets/icons";
 import { artWork3 } from "../assets/images";
-import Button from "../components/Button";
 import ShoeCard from "../components/ShoeCard";
 import { useState } from "react";
 
@@ -27,7 +25,13 @@ const Hero = () => {
           Future of dawn is a free NFT collection of 1111 NFTs On{" "}
           <span className="text-primary">CoinEx Smart Chain</span>
         </p>
-        <Button label="Join Whitelist" iconURL={arrowRight} />
+        <a
+          className="bg-primary py-3 px-12 rounded-full text-xl text-white cursor-pointer"
+          href="https://denet.me/m/bYKLsb"
+          target="_blank"
+          rel="noreferrer">
+          Join Whitelist
+        </a>
       </div>
 
       <div className="relative flex-1 flex justify-center items-center xl:min-h-screen max-xl:py-40  bg-center">
