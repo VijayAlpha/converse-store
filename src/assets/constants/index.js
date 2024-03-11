@@ -72,18 +72,17 @@ export const services = [
   {
     imgURL: twitterLogo,
     label: "Follow",
-    subtext: "Follow Future of Dawn and CoinEx on Twitter. ",
+    subtext: "Follow Future of Dawn &  CoinEx India on Twitter",
   },
   {
     imgURL: shieldTick,
     label: "Join WhiteList",
-    subtext: "Fill in the relevant information on the white list.",
+    subtext: "Signup on Coinex.com and Join Coinex India Telegram",
   },
   {
     imgURL: support,
     label: "Finally",
-    subtext:
-      "Wait for OneSwap audit notification on public display & sale of NFT.",
+    subtext: "Create Coinex wallet & provide NFT wallet address.",
   },
 ];
 

@@ -18,13 +18,6 @@ const Subscribe = () => {
           <div className="flex flex-col max-sm:justify-end items-center gap-6 max-sm:w-full">
             <a
               className="bg-primary py-3 px-12 rounded-full text-xl text-white cursor-pointer"
-              href="https://twitter.com/coinexindia"
-              target="_blank"
-              rel="noreferrer">
-              Follow CoinEx
-            </a>
-            <a
-              className="bg-primary py-3 px-12 rounded-full text-xl text-white cursor-pointer"
               href="https://twitter.com/futureofdawns"
               target="_blank"
               rel="noreferrer">
@@ -32,10 +25,18 @@ const Subscribe = () => {
             </a>
             <a
               className="bg-primary py-3 px-12 rounded-full text-xl text-white cursor-pointer"
+              href="https://twitter.com/coinexindia"
+              target="_blank"
+              rel="noreferrer">
+              Follow CoinEx India
+            </a>
+
+            <a
+              className="bg-primary py-3 px-12 rounded-full text-xl text-white cursor-pointer"
               href="https://denet.me/m/bYKLsb"
               target="_blank"
               rel="noreferrer">
-              Join Whitelist
+              Join CoinEx India Telegram
             </a>
           </div>
         </section>
