@@ -36,9 +36,6 @@ const PopularProductCard = ({ imgURL, name, isLast }) => {
       <h3 className="mt-2 text-2xl leading-normal font-semibold font-palanquin">
         {name}
       </h3>
-      <p className="mt-2 font-semibold font-montserrat text-gray-900 text-2xl leading-normal">
-        $Free
-      </p>
     </div>
   );
 };

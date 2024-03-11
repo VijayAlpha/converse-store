@@ -22,7 +22,7 @@ const Hero = () => {
           <span className="text-primary inline-block mt-3">Dawn </span>{" "}
         </h1>
         <p className="font-montserrat text-slate-gray text-lg leading-8 mt-6 mb-14 sm:max-w-sm">
-          Future of dawn is a free NFT collection of 1111 NFTs On{" "}
+          Future of dawn is a NFT collection of 1111 NFTs On{" "}
           <span className="text-primary">CoinEx Smart Chain</span>
         </p>
         <a

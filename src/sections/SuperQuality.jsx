@@ -21,7 +21,7 @@ const SuperQuality = () => {
           aiming for absolute control.
         </p>
         <p className="mt-6 lg:max-w-lg info-text">
-          This is a collection of 1111 Free NFTs for our whitelisted people.
+          This is a collection of 1111 NFTs for our whitelisted people.
         </p>
         <div className="mt-11">
           {" "}
