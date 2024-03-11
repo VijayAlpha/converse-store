@@ -22,7 +22,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="flex flex-col justify-between gap-5 text-white-400  max-sm:flex-col max-sm:items-center">
-        <div className="flex items-center gap-5 ">
+        <div className="flex items-center gap-5 justify-end ">
           {socialMedia.map((icon) => (
             <a
               key={icon.src}

@@ -49,7 +49,7 @@ const SpecialOffer = () => {
             href="https://twitter.com/coinexindia"
             target="_blank"
             rel="noreferrer">
-            Follow CoinEx
+            Follow CoinEx India
           </a>
           <a
             className="bg-white border-2 border-gray-900 py-3 px-12 rounded-full text-xl cursor-pointer"

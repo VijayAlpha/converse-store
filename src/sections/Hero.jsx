@@ -27,8 +27,7 @@ const Hero = () => {
         </p>
         <a
           className="bg-primary py-3 px-12 rounded-full text-xl text-white cursor-pointer"
-          href="https://denet.me/m/bYKLsb"
-          target="_blank"
+          href="#whitelist"
           rel="noreferrer">
           Join Whitelist
         </a>

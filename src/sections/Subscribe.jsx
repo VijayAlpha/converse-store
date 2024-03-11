@@ -33,7 +33,7 @@ const Subscribe = () => {
 
             <a
               className="bg-primary py-3 px-12 rounded-full text-xl text-white cursor-pointer"
-              href="https://denet.me/m/bYKLsb"
+              href="https://t.me/coinexindiaofficial"
               target="_blank"
               rel="noreferrer">
               Join CoinEx India Telegram

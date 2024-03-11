@@ -25,7 +25,7 @@ const App = () => (
     <section className="padding">
       <PopularProducts />
     </section>
-    <section className="padding-x py-10">
+    <section className="padding-x py-10" id="whitelist">
       <h2 className="text-4xl font-palanquin font-bold text-center mb-10">
         How to <span className="text-primary"> participate </span> in Whitelist
         ?

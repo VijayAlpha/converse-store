@@ -1,6 +1,5 @@
 import {
   facebook,
-  instagram,
   shieldTick,
   support,
   twitterLogo,
@@ -145,9 +144,5 @@ export const socialMedia = [
     alt: "twitter logo",
     link: "https://twitter.com/coinexindia",
   },
-  {
-    src: instagram,
-    alt: "instagram logo",
-    link: "https://www.instagram.com/coinexindia",
-  },
+
 ];
